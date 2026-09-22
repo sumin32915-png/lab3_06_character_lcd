@@ -1,0 +1,26 @@
+[1] PASS 로그
+ *  Executing task in folder PROJECT: C:\Users\sumin\AppData\Local\Microsoft\WindowsApps\python.EXE tools/fpga_lab.py simulate 
+
+RUN C:\msys64\mingw64\bin\iverilog.EXE -g2012 -Wall -I C:\Users\sumin\lab3_24_character_lcd\src -I C:\Users\sumin\lab3_24_character_lcd\sim -s tb_character_lcd -o C:\Users\sumin\lab3_24_character_lcd\build\sim\run-accb7afffe4c4961ad8c2e3b4aca40ad\sim.vvp C:\Users\sumin\lab3_24_character_lcd\src\lab3_character_lcd.v C:\Users\sumin\lab3_24_character_lcd\sim\tb_character_lcd.sv
+
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\lab3_24_character_lcd\build\sim\run-accb7afffe4c4961ad8c2e3b4aca40ad\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB3_LCD_PASS bytes=40
+C:\Users\sumin\lab3_24_character_lcd\sim\tb_character_lcd.sv:41: $finish called at 8130000 (1ps)
+
+시뮬레이션 실행 완료. 진리표·자기검사·파형으로 회로의 정답 여부를 확인하세요.
+WAVE C:\Users\sumin\lab3_24_character_lcd\build\sim\wave.vcd
+ *  Terminal will be reused by tasks, press any key to close it. 
+
+[2] FAIL 로그
+RUN C:\msys64\mingw64\bin\iverilog.EXE -g2012 -Wall -I C:\Users\sumin\lab3_24_character_lcd\src -I C:\Users\sumin\lab3_24_character_lcd\sim -s tb_character_lcd-o C:\Users\sumin\lab3_24_character_lcd\build\sim\run-26243197e323496dabe5242d9a1e98bd\sim.vvp C:\Users\sumin\lab3_24_character_lcd\src\lab3_character_lcd.v C:\Users\sumin\lab3_24_character_lcd\sim\tb_character_lcd.sv
+
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\lab3_24_character_lcd\build\sim\run-26243197e323496dabe5242d9a1e98bd\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+FATAL: C:\Users\sumin\lab3_24_character_lcd\sim\tb_character_lcd.sv:39: index=28 rs=1 data=4b
+       Time: 5930000  Scope: tb_character_lcd
+
+ERROR: 종료 코드 1: C:\Users\sumin\lab3_24_character_lcd\build\sim\run-26243197e323496dabe5242d9a1e98bd\simulation.log
+
+ *  The terminal process "C:\Users\sumin\AppData\Local\Microsoft\WindowsApps\python.EXE 'tools/fpga_lab.py', 'simulate'" terminated with exit code: 1. 
+ *  Terminal will be reused by tasks, press any key to close it. 
