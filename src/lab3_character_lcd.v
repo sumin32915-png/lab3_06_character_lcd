@@ -61,7 +61,7 @@ module lab3_character_lcd #(
             25: begin byte_rs = 1; byte_data = "C"; end
             26: begin byte_rs = 1; byte_data = "D"; end
             27: begin byte_rs = 1; byte_data = " "; end
-            28: begin byte_rs = 1; byte_data = "C"; end
+            28: begin byte_rs = 1; byte_data = "K"; end
             29: begin byte_rs = 1; byte_data = "O"; end
             30: begin byte_rs = 1; byte_data = "N"; end
             31: begin byte_rs = 1; byte_data = "T"; end
