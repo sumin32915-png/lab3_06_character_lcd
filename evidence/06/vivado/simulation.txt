@@ -1,0 +1,7 @@
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_character_lcd_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1749.680 ; gain = 0.000
+run all
+LAB3_LCD_PASS bytes=40
+$finish called at time : 8130 ns : File "C:/Users/sumin/lab3_24_character_lcd/sim/tb_character_lcd.sv" Line 41

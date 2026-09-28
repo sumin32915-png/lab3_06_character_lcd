@@ -1,0 +1,7 @@
+0.7
+2020.2
+Jun 16 2026
+11:10:11
+C:/Users/sumin/lab3_24_character_lcd/06_character_lcd.sim/sim_1/behav/xsim/glbl.v,1773749341,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/sumin/lab3_24_character_lcd/sim/tb_character_lcd.sv,1790054839,systemVerilog,,,,tb_character_lcd,,uvm,../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/sumin/lab3_24_character_lcd/src/lab3_character_lcd.v,1790055451,verilog,,,,lab3_character_lcd,,uvm,../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,

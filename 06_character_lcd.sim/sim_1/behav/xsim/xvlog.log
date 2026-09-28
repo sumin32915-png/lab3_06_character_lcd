@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sumin/lab3_24_character_lcd/src/lab3_character_lcd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab3_character_lcd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/sumin/lab3_24_character_lcd/sim/tb_character_lcd.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_character_lcd
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sumin/lab3_24_character_lcd/06_character_lcd.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
